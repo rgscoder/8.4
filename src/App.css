@@ -1,5 +1,50 @@
-.App {
+.header {
+  background-color: black;
+  color: #ffffff;
+  display: grid;
+  height: fit-content;
+}
+
+#title {
+  color: red;
+}
+
+#bloomdiv {
+  width: 1;
+  height:100px;
+}
+
+#subtitle {
+  width: 100%;
+  border-top: 1px solid white;
+  display: grid;
+  align-items: center;
   text-align: center;
+  padding-top: 2%;
+
+}
+
+.nav {
+  background-color: red;
+  padding-left: 3%;
+  padding-right: 3%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  position: center;
+  border: 2px solid black;
+  
+}
+
+.list {
+  padding: 0px;
+  list-style-type: none;
+  align-self: left;
+}
+
+.list-items {
+  display:flex;
+  justify-content: space-between;
 }
 
 .App-logo {
